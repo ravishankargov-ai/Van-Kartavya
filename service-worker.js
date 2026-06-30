@@ -1,15 +1,14 @@
 // ============================================================
-//  Van Kartavya — Service Worker  (v1)
+//  Van Kartavya — Service Worker  (v2)
 //  Network-first for the app HTML so updates always appear.
 // ============================================================
-const CACHE_NAME = 'van-kartavya-v1';
+const CACHE_NAME = 'van-kartavya-v2';
 const ASSETS = ['./','./index.html','./manifest.json','./icon-192.png','./icon-512.png'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)));
   self.skipWaiting();
 });
-
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(keys =>
@@ -17,7 +16,6 @@ self.addEventListener('activate', event => {
   );
   self.clients.claim();
 });
-
 self.addEventListener('fetch', event => {
   const url = event.request.url;
   if (url.includes('script.google.com')) {
