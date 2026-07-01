@@ -393,54 +393,82 @@
         <button class="sidebar-item" id="nav-low" onclick="setView('low')">🟢 Low <span class="sidebar-count" id="cnt-low">0</span></button>
       </div>
 
-      <!-- Governance & Legal -->
+      <!-- A. Governance & Administration -->
       <div class="sidebar-section">
-        <span class="sidebar-label">⚖️ Governance & Legal</span>
-        <button class="sidebar-item" id="nav-Courts" onclick="setView('Courts')">⚖️ Courts <span class="sidebar-count" id="cnt-Courts">0</span></button>
-        <button class="sidebar-item" id="nav-VIPReferences" onclick="setView('VIPReferences')">📌 VIP References <span class="sidebar-count" id="cnt-VIPReferences">0</span></button>
-        <button class="sidebar-item" id="nav-Cabinet" onclick="setView('Cabinet')">🗝️ Cabinet <span class="sidebar-count" id="cnt-Cabinet">0</span></button>
-        <button class="sidebar-item" id="nav-Statutes" onclick="setView('Statutes')">📜 Statutes <span class="sidebar-count" id="cnt-Statutes">0</span></button>
-        <button class="sidebar-item" id="nav-Policies" onclick="setView('Policies')">📋 Policies <span class="sidebar-count" id="cnt-Policies">0</span></button>
+        <span class="sidebar-label">⚖️ Governance & Administration</span>
+        <button class="sidebar-item" id="nav-CabinetIssues" onclick="setView('CabinetIssues')">🗝️ Cabinet Issues <span class="sidebar-count" id="cnt-CabinetIssues">0</span></button>
+        <button class="sidebar-item" id="nav-GovernmentIssues" onclick="setView('GovernmentIssues')">🏛️ Government Issues <span class="sidebar-count" id="cnt-GovernmentIssues">0</span></button>
+        <button class="sidebar-item" id="nav-CourtCases" onclick="setView('CourtCases')">⚖️ Court Cases <span class="sidebar-count" id="cnt-CourtCases">0</span></button>
+        <button class="sidebar-item" id="nav-PoliciesStatutes" onclick="setView('PoliciesStatutes')">📜 Policies & Statutes <span class="sidebar-count" id="cnt-PoliciesStatutes">0</span></button>
+        <button class="sidebar-item" id="nav-AuditVigilance" onclick="setView('AuditVigilance')">🔎 Audit & Vigilance <span class="sidebar-count" id="cnt-AuditVigilance">0</span></button>
         <button class="sidebar-item" id="nav-DisciplinaryProceedings" onclick="setView('DisciplinaryProceedings')">🔍 Disciplinary Proceedings <span class="sidebar-count" id="cnt-DisciplinaryProceedings">0</span></button>
-      </div>
-
-      <!-- Forest & Wildlife -->
-      <div class="sidebar-section">
-        <span class="sidebar-label">🌿 Forest & Wildlife</span>
-        <button class="sidebar-item" id="nav-ForestFireManagement" onclick="setView('ForestFireManagement')">🔥 Forest Fire Management <span class="sidebar-count" id="cnt-ForestFireManagement">0</span></button>
-        <button class="sidebar-item" id="nav-Wildlife" onclick="setView('Wildlife')">🐘 Wildlife <span class="sidebar-count" id="cnt-Wildlife">0</span></button>
-        <button class="sidebar-item" id="nav-TigerReserves" onclick="setView('TigerReserves')">🐅 Tiger Reserves <span class="sidebar-count" id="cnt-TigerReserves">0</span></button>
-        <button class="sidebar-item" id="nav-VanPanchayats" onclick="setView('VanPanchayats')">🌳 Van Panchayats <span class="sidebar-count" id="cnt-VanPanchayats">0</span></button>
-        <button class="sidebar-item" id="nav-Environment" onclick="setView('Environment')">🌍 Environment <span class="sidebar-count" id="cnt-Environment">0</span></button>
-        <button class="sidebar-item" id="nav-LandTransfers" onclick="setView('LandTransfers')">🗺️ Land Transfers <span class="sidebar-count" id="cnt-LandTransfers">0</span></button>
-      </div>
-
-      <!-- Development & Tourism -->
-      <div class="sidebar-section">
-        <span class="sidebar-label">🏔️ Development & Tourism</span>
-        <button class="sidebar-item" id="nav-TrekkingMountaineering" onclick="setView('TrekkingMountaineering')">🧗 Trekking & Mountaineering <span class="sidebar-count" id="cnt-TrekkingMountaineering">0</span></button>
-        <button class="sidebar-item" id="nav-EcoTourism" onclick="setView('EcoTourism')">🌿 Eco Tourism Dev Corp <span class="sidebar-count" id="cnt-EcoTourism">0</span></button>
-        <button class="sidebar-item" id="nav-ForestCorporation" onclick="setView('ForestCorporation')">🏭 Forest Corporation <span class="sidebar-count" id="cnt-ForestCorporation">0</span></button>
         <button class="sidebar-item" id="nav-PriorityProjects" onclick="setView('PriorityProjects')">⭐ Priority Projects <span class="sidebar-count" id="cnt-PriorityProjects">0</span></button>
-        <button class="sidebar-item" id="nav-EAP" onclick="setView('EAP')">🌐 EAP / Externally Aided <span class="sidebar-count" id="cnt-EAP">0</span></button>
-        <button class="sidebar-item" id="nav-HPC" onclick="setView('HPC')">🏛️ HPC <span class="sidebar-count" id="cnt-HPC">0</span></button>
+        <button class="sidebar-item" id="nav-HumanResources" onclick="setView('HumanResources')">👥 Human Resources Mgmt <span class="sidebar-count" id="cnt-HumanResources">0</span></button>
+        <button class="sidebar-item" id="nav-TrainingCapacity" onclick="setView('TrainingCapacity')">🎓 Training & Capacity Building <span class="sidebar-count" id="cnt-TrainingCapacity">0</span></button>
+        <button class="sidebar-item" id="nav-ImportantReferences" onclick="setView('ImportantReferences')">📌 Important References <span class="sidebar-count" id="cnt-ImportantReferences">0</span></button>
       </div>
 
-      <!-- Administration -->
+      <!-- B. Forest Management -->
       <div class="sidebar-section">
-        <span class="sidebar-label">🏢 Administration</span>
-        <button class="sidebar-item" id="nav-Establishment" onclick="setView('Establishment')">🏢 Establishment <span class="sidebar-count" id="cnt-Establishment">0</span></button>
-        <button class="sidebar-item" id="nav-HR" onclick="setView('HR')">👥 HR <span class="sidebar-count" id="cnt-HR">0</span></button>
-        <button class="sidebar-item" id="nav-Training" onclick="setView('Training')">🎓 Training <span class="sidebar-count" id="cnt-Training">0</span></button>
-        <button class="sidebar-item" id="nav-CSS" onclick="setView('CSS')">📁 CSS <span class="sidebar-count" id="cnt-CSS">0</span></button>
-        <button class="sidebar-item" id="nav-Budget" onclick="setView('Budget')">💰 Budget <span class="sidebar-count" id="cnt-Budget">0</span></button>
+        <span class="sidebar-label">🌲 Forest Management</span>
+        <button class="sidebar-item" id="nav-ForestProtection" onclick="setView('ForestProtection')">🛡️ Forest Protection & Enforcement <span class="sidebar-count" id="cnt-ForestProtection">0</span></button>
+        <button class="sidebar-item" id="nav-ForestFireManagement" onclick="setView('ForestFireManagement')">🔥 Forest Fire Management <span class="sidebar-count" id="cnt-ForestFireManagement">0</span></button>
+        <button class="sidebar-item" id="nav-WorkingPlans" onclick="setView('WorkingPlans')">📖 Working Plans <span class="sidebar-count" id="cnt-WorkingPlans">0</span></button>
+        <button class="sidebar-item" id="nav-LandDiversion" onclick="setView('LandDiversion')">🗺️ Forest Land Diversion & Transfers <span class="sidebar-count" id="cnt-LandDiversion">0</span></button>
+        <button class="sidebar-item" id="nav-VanPanchayats" onclick="setView('VanPanchayats')">🌳 Van Panchayats <span class="sidebar-count" id="cnt-VanPanchayats">0</span></button>
+        <button class="sidebar-item" id="nav-ForestDevCorp" onclick="setView('ForestDevCorp')">🏭 Forest Development Corporation <span class="sidebar-count" id="cnt-ForestDevCorp">0</span></button>
+        <button class="sidebar-item" id="nav-BambooFibres" onclick="setView('BambooFibres')">🎋 Bamboo & Fibres <span class="sidebar-count" id="cnt-BambooFibres">0</span></button>
+        <button class="sidebar-item" id="nav-Livelihood" onclick="setView('Livelihood')">🤝 Livelihood & Community Forestry <span class="sidebar-count" id="cnt-Livelihood">0</span></button>
+        <button class="sidebar-item" id="nav-Afforestation" onclick="setView('Afforestation')">🌱 Afforestation & Restoration <span class="sidebar-count" id="cnt-Afforestation">0</span></button>
+        <button class="sidebar-item" id="nav-CAMPA" onclick="setView('CAMPA')">💰 CAMPA <span class="sidebar-count" id="cnt-CAMPA">0</span></button>
+      </div>
+
+      <!-- C. Wildlife & Biodiversity -->
+      <div class="sidebar-section">
+        <span class="sidebar-label">🐅 Wildlife & Biodiversity</span>
+        <button class="sidebar-item" id="nav-WildlifeConservation" onclick="setView('WildlifeConservation')">🦌 Wildlife Conservation <span class="sidebar-count" id="cnt-WildlifeConservation">0</span></button>
+        <button class="sidebar-item" id="nav-TigerReserves" onclick="setView('TigerReserves')">🐅 Tiger Reserves <span class="sidebar-count" id="cnt-TigerReserves">0</span></button>
+        <button class="sidebar-item" id="nav-HumanWildlifeConflict" onclick="setView('HumanWildlifeConflict')">⚠️ Human-Wildlife Conflict <span class="sidebar-count" id="cnt-HumanWildlifeConflict">0</span></button>
+        <button class="sidebar-item" id="nav-Biodiversity" onclick="setView('Biodiversity')">🌸 Biodiversity & Protected Areas <span class="sidebar-count" id="cnt-Biodiversity">0</span></button>
+      </div>
+
+      <!-- D. Environment & Climate -->
+      <div class="sidebar-section">
+        <span class="sidebar-label">🌍 Environment & Climate</span>
+        <button class="sidebar-item" id="nav-Environment" onclick="setView('Environment')">🌍 Environment <span class="sidebar-count" id="cnt-Environment">0</span></button>
+        <button class="sidebar-item" id="nav-ClimateChange" onclick="setView('ClimateChange')">🌡️ Climate Change & Carbon Financing <span class="sidebar-count" id="cnt-ClimateChange">0</span></button>
+        <button class="sidebar-item" id="nav-GreenIndiaMission" onclick="setView('GreenIndiaMission')">🍃 Green India Mission & Green Credits <span class="sidebar-count" id="cnt-GreenIndiaMission">0</span></button>
+      </div>
+
+      <!-- E. Tourism & Public Interface -->
+      <div class="sidebar-section">
+        <span class="sidebar-label">🏔️ Tourism & Public Interface</span>
+        <button class="sidebar-item" id="nav-EcoTourism" onclick="setView('EcoTourism')">🌿 Eco Tourism <span class="sidebar-count" id="cnt-EcoTourism">0</span></button>
+        <button class="sidebar-item" id="nav-Trekking" onclick="setView('Trekking')">🧗 Trekking & Mountaineering <span class="sidebar-count" id="cnt-Trekking">0</span></button>
+        <button class="sidebar-item" id="nav-PublicGrievances" onclick="setView('PublicGrievances')">📢 Public Grievances & Citizen Services <span class="sidebar-count" id="cnt-PublicGrievances">0</span></button>
+      </div>
+
+      <!-- F. Projects & Infrastructure -->
+      <div class="sidebar-section">
+        <span class="sidebar-label">🏗️ Projects & Infrastructure</span>
         <button class="sidebar-item" id="nav-Infrastructure" onclick="setView('Infrastructure')">🔨 Infrastructure <span class="sidebar-count" id="cnt-Infrastructure">0</span></button>
+        <button class="sidebar-item" id="nav-EAP" onclick="setView('EAP')">🌐 Externally Aided Projects (EAP) <span class="sidebar-count" id="cnt-EAP">0</span></button>
+        <button class="sidebar-item" id="nav-CSS" onclick="setView('CSS')">📁 Centrally Sponsored Schemes (CSS) <span class="sidebar-count" id="cnt-CSS">0</span></button>
+        <button class="sidebar-item" id="nav-Research" onclick="setView('Research')">🔬 Research & Innovation <span class="sidebar-count" id="cnt-Research">0</span></button>
+        <button class="sidebar-item" id="nav-SoftwareGIS" onclick="setView('SoftwareGIS')">💻 Software, GIS & Technology <span class="sidebar-count" id="cnt-SoftwareGIS">0</span></button>
       </div>
 
-      <!-- Tech & Other -->
+      <!-- G. Finance & Performance -->
       <div class="sidebar-section">
-        <span class="sidebar-label">💻 Tech & Other</span>
-        <button class="sidebar-item" id="nav-SoftwareTech" onclick="setView('SoftwareTech')">💻 Software & Tech <span class="sidebar-count" id="cnt-SoftwareTech">0</span></button>
+        <span class="sidebar-label">📊 Finance & Performance</span>
+        <button class="sidebar-item" id="nav-BudgetFinance" onclick="setView('BudgetFinance')">💰 Budget & Finance <span class="sidebar-count" id="cnt-BudgetFinance">0</span></button>
+        <button class="sidebar-item" id="nav-KPIDashboard" onclick="setView('KPIDashboard')">📈 KPI / KOI Dashboard <span class="sidebar-count" id="cnt-KPIDashboard">0</span></button>
+        <button class="sidebar-item" id="nav-MonitoringReviews" onclick="setView('MonitoringReviews')">🔍 Monitoring & Reviews <span class="sidebar-count" id="cnt-MonitoringReviews">0</span></button>
+      </div>
+
+      <!-- H. Miscellaneous -->
+      <div class="sidebar-section">
+        <span class="sidebar-label">📂 Miscellaneous</span>
         <button class="sidebar-item" id="nav-Miscellaneous" onclick="setView('Miscellaneous')">📂 Miscellaneous <span class="sidebar-count" id="cnt-Miscellaneous">0</span></button>
       </div>
     </div><!-- end sidebar -->
@@ -541,40 +569,59 @@
         <div class="form-group">
           <label class="form-label">Workstream</label>
           <select class="form-select" id="f_workstream">
-            <optgroup label="⚖️ Governance & Legal">
-              <option value="Courts">Courts</option>
-              <option value="VIPReferences">VIP References</option>
-              <option value="Cabinet">Cabinet</option>
-              <option value="Statutes">Statutes</option>
-              <option value="Policies">Policies</option>
+            <optgroup label="A. Governance & Administration">
+              <option value="CabinetIssues">Cabinet Issues</option>
+              <option value="GovernmentIssues">Government Issues</option>
+              <option value="CourtCases">Court Cases</option>
+              <option value="PoliciesStatutes">Policies & Statutes</option>
+              <option value="AuditVigilance">Audit & Vigilance</option>
               <option value="DisciplinaryProceedings">Disciplinary Proceedings</option>
-            </optgroup>
-            <optgroup label="🌿 Forest & Wildlife">
-              <option value="ForestFireManagement">Forest Fire Management</option>
-              <option value="Wildlife">Wildlife</option>
-              <option value="TigerReserves">Tiger Reserves</option>
-              <option value="VanPanchayats">Van Panchayats</option>
-              <option value="Environment">Environment</option>
-              <option value="LandTransfers">Land Transfers</option>
-            </optgroup>
-            <optgroup label="🏔️ Development & Tourism">
-              <option value="TrekkingMountaineering">Trekking & Mountaineering</option>
-              <option value="EcoTourism">Eco Tourism Dev Corp</option>
-              <option value="ForestCorporation">Forest Corporation</option>
               <option value="PriorityProjects">Priority Projects</option>
-              <option value="EAP">EAP / Externally Aided</option>
-              <option value="HPC">HPC</option>
+              <option value="HumanResources">Human Resources Management</option>
+              <option value="TrainingCapacity">Training & Capacity Building</option>
+              <option value="ImportantReferences">Important References</option>
             </optgroup>
-            <optgroup label="🏢 Administration">
-              <option value="Establishment">Establishment</option>
-              <option value="HR">HR</option>
-              <option value="Training">Training</option>
-              <option value="CSS">CSS</option>
-              <option value="Budget">Budget</option>
+            <optgroup label="B. Forest Management">
+              <option value="ForestProtection">Forest Protection & Enforcement</option>
+              <option value="ForestFireManagement">Forest Fire Management</option>
+              <option value="WorkingPlans">Working Plans</option>
+              <option value="LandDiversion">Forest Land Diversion & Transfers</option>
+              <option value="VanPanchayats">Van Panchayats</option>
+              <option value="ForestDevCorp">Forest Development Corporation</option>
+              <option value="BambooFibres">Bamboo & Fibres</option>
+              <option value="Livelihood">Livelihood & Community Forestry</option>
+              <option value="Afforestation">Afforestation & Restoration</option>
+              <option value="CAMPA">CAMPA</option>
+            </optgroup>
+            <optgroup label="C. Wildlife & Biodiversity">
+              <option value="WildlifeConservation">Wildlife Conservation</option>
+              <option value="TigerReserves">Tiger Reserves</option>
+              <option value="HumanWildlifeConflict">Human-Wildlife Conflict</option>
+              <option value="Biodiversity">Biodiversity & Protected Areas</option>
+            </optgroup>
+            <optgroup label="D. Environment & Climate">
+              <option value="Environment">Environment</option>
+              <option value="ClimateChange">Climate Change & Carbon Financing</option>
+              <option value="GreenIndiaMission">Green India Mission & Green Credits</option>
+            </optgroup>
+            <optgroup label="E. Tourism & Public Interface">
+              <option value="EcoTourism">Eco Tourism</option>
+              <option value="Trekking">Trekking & Mountaineering</option>
+              <option value="PublicGrievances">Public Grievances & Citizen Services</option>
+            </optgroup>
+            <optgroup label="F. Projects & Infrastructure">
               <option value="Infrastructure">Infrastructure</option>
+              <option value="EAP">Externally Aided Projects (EAP)</option>
+              <option value="CSS">Centrally Sponsored Schemes (CSS)</option>
+              <option value="Research">Research & Innovation</option>
+              <option value="SoftwareGIS">Software, GIS & Technology</option>
             </optgroup>
-            <optgroup label="💻 Tech & Other">
-              <option value="SoftwareTech">Software & Tech</option>
+            <optgroup label="G. Finance & Performance">
+              <option value="BudgetFinance">Budget & Finance</option>
+              <option value="KPIDashboard">KPI / KOI Dashboard</option>
+              <option value="MonitoringReviews">Monitoring & Reviews</option>
+            </optgroup>
+            <optgroup label="H. Miscellaneous">
               <option value="Miscellaneous">Miscellaneous</option>
             </optgroup>
           </select>
@@ -610,37 +657,54 @@
           <label class="form-label">Responsible Officer</label>
           <select class="form-select" id="f_officer">
             <option value="">— Select Officer —</option>
-            <optgroup label="Secretariat">
-              <option value="Principal Secretary">Principal Secretary</option>
+            <optgroup label="Government Level">
+              <option value="ACS/PS">ACS/Principal Secretary</option>
               <option value="Secretary">Secretary</option>
-              <option value="AS F1, F2">AS F1, F2</option>
+              <option value="AS F1">AS F1</option>
+              <option value="AS F2">AS F2</option>
               <option value="AS F3">AS F3</option>
+              <option value="AS F4">AS F4</option>
               <option value="JS">JS</option>
               <option value="DS">DS</option>
               <option value="US">US</option>
               <option value="SO1">SO 1</option>
               <option value="SO2">SO 2</option>
               <option value="SO3">SO 3</option>
-              <option value="HOFF">HOFF</option>
+              <option value="SO4">SO 4</option>
+              <option value="Senior Consultant">Senior Consultant</option>
+              <option value="Consultant">Consultant</option>
             </optgroup>
-            <optgroup label="Forest Headquarters">
-              <option value="CWLW">CWLW</option>
-              <option value="PCCF VP">PCCF VP</option>
-              <option value="Nodal Officer">Nodal Officer</option>
-              <option value="APCCF HR">APCCF HR</option>
-              <option value="APCCF Legal">APCCF Legal</option>
-              <option value="APCCF PFM">APCCF, PFM</option>
-              <option value="APCCF Forest Fire">APCCF, Forest Fire</option>
-              <option value="APCCF IT">APCCF, IT</option>
-              <option value="CCF Garhwal">CCF Garhwal</option>
-              <option value="CCF Kumaon">CCF Kumaon</option>
+            <optgroup label="PCCF Level">
+              <option value="PCCF HoFF">PCCF (Head of Forest Force)</option>
+              <option value="PCCF Van Panchayat">PCCF (Van Panchayat)</option>
+              <option value="PCCF Wildlife">PCCF (Wild Life)</option>
             </optgroup>
-            <optgroup label="Corporations & Bodies">
-              <option value="MD FDC">MD, FDC</option>
-              <option value="MD ETDC">MD, ETDC</option>
-              <option value="APD JICA">APD, JICA</option>
-              <option value="PCB">PCB</option>
-              <option value="CEO Environment">CEO, Environment</option>
+            <optgroup label="APCCF Offices">
+              <option value="APCCF Land Survey">APCCF (Land Survey Directorate)</option>
+              <option value="APCCF RTM">APCCF (RTM)</option>
+              <option value="APCCF PFM">APCCF (PFM)</option>
+              <option value="APCCF Projects">APCCF (Projects)</option>
+            </optgroup>
+            <optgroup label="Chief Conservator of Forests (CCF)">
+              <option value="CCF Garhwal">CCF (Garhwal)</option>
+              <option value="CCF Kumaon">CCF (Kumaon)</option>
+              <option value="CCF Environment">CCF (Environment)</option>
+              <option value="CCF HRD">CCF (HRD)</option>
+              <option value="CCF Eco-Tourism">CCF (Eco-Tourism & Publicity)</option>
+              <option value="CCF Working Plan">CCF (Working Plan)</option>
+              <option value="CCF MEA">CCF (Monitoring, Evaluation & Audit)</option>
+              <option value="CCF Administration">CCF (Administration)</option>
+              <option value="CCF Vigilance Legal">CCF (Vigilance and Legal)</option>
+              <option value="CCF UFTA">CCF (UFTA)</option>
+              <option value="CCF Utilisation NTFP">CCF (Utilisation & NTFP)</option>
+              <option value="CCF Forest Fire DM">CCF (Forest Fire Protection & Disaster Management)</option>
+              <option value="CCF Administration Wildlife">CCF (Administration, Wildlife)</option>
+              <option value="CCF Van Panchayat CF">CCF (Van Panchayat & Community Forestry)</option>
+            </optgroup>
+            <optgroup label="Wildlife Directors / CFs">
+              <option value="Director Rajaji">Director, Rajaji National Park</option>
+              <option value="Director Nanda Devi">Director, Nanda Devi Biosphere Reserve</option>
+              <option value="Director Corbett">Director, Corbett Tiger Reserve</option>
             </optgroup>
             <option value="Others">Others</option>
           </select>
@@ -663,32 +727,45 @@
           <input type="text" class="form-input" id="newSubtaskTitle" placeholder="Add milestone or sub-task..." style="flex:1">
           <select class="form-select" id="newSubtaskOfficer" style="max-width:160px">
             <option value="">Officer</option>
-            <option value="Principal Secretary">Principal Secretary</option>
+            <option value="ACS/PS">ACS/Principal Secretary</option>
             <option value="Secretary">Secretary</option>
-            <option value="AS F1, F2">AS F1, F2</option>
+            <option value="AS F1">AS F1</option>
+            <option value="AS F2">AS F2</option>
             <option value="AS F3">AS F3</option>
+            <option value="AS F4">AS F4</option>
             <option value="JS">JS</option>
             <option value="DS">DS</option>
             <option value="US">US</option>
             <option value="SO1">SO 1</option>
             <option value="SO2">SO 2</option>
             <option value="SO3">SO 3</option>
-            <option value="HOFF">HOFF</option>
-            <option value="CWLW">CWLW</option>
-            <option value="PCCF VP">PCCF VP</option>
-            <option value="Nodal Officer">Nodal Officer</option>
-            <option value="APCCF HR">APCCF HR</option>
-            <option value="APCCF Legal">APCCF Legal</option>
-            <option value="APCCF PFM">APCCF, PFM</option>
-            <option value="APCCF Forest Fire">APCCF, Forest Fire</option>
-            <option value="APCCF IT">APCCF, IT</option>
-            <option value="CCF Garhwal">CCF Garhwal</option>
-            <option value="CCF Kumaon">CCF Kumaon</option>
-            <option value="MD FDC">MD, FDC</option>
-            <option value="MD ETDC">MD, ETDC</option>
-            <option value="APD JICA">APD, JICA</option>
-            <option value="PCB">PCB</option>
-            <option value="CEO Environment">CEO, Environment</option>
+            <option value="SO4">SO 4</option>
+            <option value="Senior Consultant">Senior Consultant</option>
+            <option value="Consultant">Consultant</option>
+            <option value="PCCF HoFF">PCCF (HoFF)</option>
+            <option value="PCCF Van Panchayat">PCCF (Van Panchayat)</option>
+            <option value="PCCF Wildlife">PCCF (Wild Life)</option>
+            <option value="APCCF Land Survey">APCCF (Land Survey)</option>
+            <option value="APCCF RTM">APCCF (RTM)</option>
+            <option value="APCCF PFM">APCCF (PFM)</option>
+            <option value="APCCF Projects">APCCF (Projects)</option>
+            <option value="CCF Garhwal">CCF (Garhwal)</option>
+            <option value="CCF Kumaon">CCF (Kumaon)</option>
+            <option value="CCF Environment">CCF (Environment)</option>
+            <option value="CCF HRD">CCF (HRD)</option>
+            <option value="CCF Eco-Tourism">CCF (Eco-Tourism & Publicity)</option>
+            <option value="CCF Working Plan">CCF (Working Plan)</option>
+            <option value="CCF MEA">CCF (Monitoring, Evaluation & Audit)</option>
+            <option value="CCF Administration">CCF (Administration)</option>
+            <option value="CCF Vigilance Legal">CCF (Vigilance and Legal)</option>
+            <option value="CCF UFTA">CCF (UFTA)</option>
+            <option value="CCF Utilisation NTFP">CCF (Utilisation & NTFP)</option>
+            <option value="CCF Forest Fire DM">CCF (Forest Fire & Disaster Mgmt)</option>
+            <option value="CCF Administration Wildlife">CCF (Administration, Wildlife)</option>
+            <option value="CCF Van Panchayat CF">CCF (Van Panchayat & Community Forestry)</option>
+            <option value="Director Rajaji">Director, Rajaji National Park</option>
+            <option value="Director Nanda Devi">Director, Nanda Devi Biosphere Reserve</option>
+            <option value="Director Corbett">Director, Corbett Tiger Reserve</option>
             <option value="Others">Others</option>
           </select>
           <input type="date" class="form-input" id="newSubtaskDue" style="max-width:135px">
@@ -847,11 +924,24 @@ const URL_KEY     = 'van_script_url';
 const OFFLINE_KEY = 'van_offline';
 
 const ALL_WS = [
-  'Courts','VIPReferences','Cabinet','Statutes','Policies','DisciplinaryProceedings',
-  'ForestFireManagement','Wildlife','TigerReserves','VanPanchayats','Environment','LandTransfers',
-  'TrekkingMountaineering','EcoTourism','ForestCorporation','PriorityProjects','EAP','HPC',
-  'Establishment','HR','Training','CSS','Budget','Infrastructure',
-  'SoftwareTech','Miscellaneous'
+  // A. Governance & Administration
+  'CabinetIssues','GovernmentIssues','CourtCases','PoliciesStatutes','AuditVigilance',
+  'DisciplinaryProceedings','PriorityProjects','HumanResources','TrainingCapacity','ImportantReferences',
+  // B. Forest Management
+  'ForestProtection','ForestFireManagement','WorkingPlans','LandDiversion','VanPanchayats',
+  'ForestDevCorp','BambooFibres','Livelihood','Afforestation','CAMPA',
+  // C. Wildlife & Biodiversity
+  'WildlifeConservation','TigerReserves','HumanWildlifeConflict','Biodiversity',
+  // D. Environment & Climate
+  'Environment','ClimateChange','GreenIndiaMission',
+  // E. Tourism & Public Interface
+  'EcoTourism','Trekking','PublicGrievances',
+  // F. Projects & Infrastructure
+  'Infrastructure','EAP','CSS','Research','SoftwareGIS',
+  // G. Finance & Performance
+  'BudgetFinance','KPIDashboard','MonitoringReviews',
+  // H. Miscellaneous
+  'Miscellaneous'
 ];
 
 let tasks       = [];
@@ -1023,15 +1113,27 @@ const pOrd={critical:0,high:1,medium:2,low:3,info:4};
 
 // Workstream display labels
 const WS_LABELS = {
-  Courts:'Courts', VIPReferences:'VIP References', Cabinet:'Cabinet',
-  Statutes:'Statutes', Policies:'Policies', DisciplinaryProceedings:'Disciplinary Proceedings',
-  ForestFireManagement:'Forest Fire Mgmt', Wildlife:'Wildlife', TigerReserves:'Tiger Reserves',
-  VanPanchayats:'Van Panchayats', Environment:'Environment', LandTransfers:'Land Transfers',
-  TrekkingMountaineering:'Trekking & Mountaineering', EcoTourism:'Eco Tourism Dev Corp',
-  ForestCorporation:'Forest Corporation', PriorityProjects:'Priority Projects',
-  EAP:'EAP', HPC:'HPC', Establishment:'Establishment', HR:'HR',
-  Training:'Training', CSS:'CSS', Budget:'Budget', Infrastructure:'Infrastructure',
-  SoftwareTech:'Software & Tech', Miscellaneous:'Miscellaneous'
+  CabinetIssues:'Cabinet Issues', GovernmentIssues:'Government Issues', CourtCases:'Court Cases',
+  PoliciesStatutes:'Policies & Statutes', AuditVigilance:'Audit & Vigilance',
+  DisciplinaryProceedings:'Disciplinary Proceedings', PriorityProjects:'Priority Projects',
+  HumanResources:'Human Resources Mgmt', TrainingCapacity:'Training & Capacity Building',
+  ImportantReferences:'Important References',
+  ForestProtection:'Forest Protection & Enforcement', ForestFireManagement:'Forest Fire Management',
+  WorkingPlans:'Working Plans', LandDiversion:'Forest Land Diversion & Transfers',
+  VanPanchayats:'Van Panchayats', ForestDevCorp:'Forest Development Corporation',
+  BambooFibres:'Bamboo & Fibres', Livelihood:'Livelihood & Community Forestry',
+  Afforestation:'Afforestation & Restoration', CAMPA:'CAMPA',
+  WildlifeConservation:'Wildlife Conservation', TigerReserves:'Tiger Reserves',
+  HumanWildlifeConflict:'Human-Wildlife Conflict', Biodiversity:'Biodiversity & Protected Areas',
+  Environment:'Environment', ClimateChange:'Climate Change & Carbon Financing',
+  GreenIndiaMission:'Green India Mission & Green Credits',
+  EcoTourism:'Eco Tourism', Trekking:'Trekking & Mountaineering',
+  PublicGrievances:'Public Grievances & Citizen Services',
+  Infrastructure:'Infrastructure', EAP:'Externally Aided Projects (EAP)',
+  CSS:'Centrally Sponsored Schemes (CSS)', Research:'Research & Innovation',
+  SoftwareGIS:'Software, GIS & Technology',
+  BudgetFinance:'Budget & Finance', KPIDashboard:'KPI / KOI Dashboard',
+  MonitoringReviews:'Monitoring & Reviews', Miscellaneous:'Miscellaneous'
 };
 
 // ── Filter ────────────────────────────────────────────────────
@@ -1211,7 +1313,7 @@ function openModal(id) {
     const t=tasks.find(x=>x.id===id); if(!t) return;
     document.getElementById('modalTitle').textContent='Edit Task';
     document.getElementById('f_title').value=t.title||'';
-    document.getElementById('f_workstream').value=t.workstream||'Courts';
+    document.getElementById('f_workstream').value=t.workstream||'CabinetIssues';
     document.getElementById('f_priority').value=t.priority||'medium';
     document.getElementById('f_status').value=t.status||'pending';
     document.getElementById('f_due').value=t.due||'';
@@ -1292,11 +1394,20 @@ async function saveTask(){
 
 // ── Officers list ─────────────────────────────────────────────
 const OFFICERS = [
-  'Principal Secretary','Secretary','AS F1, F2','AS F3','JS','DS','US',
-  'SO1','SO2','SO3','HOFF','CWLW','PCCF VP','Nodal Officer',
-  'APCCF HR','APCCF Legal','APCCF PFM','APCCF Forest Fire','APCCF IT',
-  'CCF Garhwal','CCF Kumaon','MD FDC','MD ETDC','APD JICA',
-  'PCB','CEO Environment','Others'
+  // Government Level
+  'ACS/PS','Secretary','AS F1','AS F2','AS F3','AS F4','JS','DS','US',
+  'SO1','SO2','SO3','SO4','Senior Consultant','Consultant',
+  // PCCF Level
+  'PCCF HoFF','PCCF Van Panchayat','PCCF Wildlife',
+  // APCCF Offices
+  'APCCF Land Survey','APCCF RTM','APCCF PFM','APCCF Projects',
+  // CCF
+  'CCF Garhwal','CCF Kumaon','CCF Environment','CCF HRD','CCF Eco-Tourism',
+  'CCF Working Plan','CCF MEA','CCF Administration','CCF Vigilance Legal','CCF UFTA',
+  'CCF Utilisation NTFP','CCF Forest Fire DM','CCF Administration Wildlife','CCF Van Panchayat CF',
+  // Wildlife Directors / CFs
+  'Director Rajaji','Director Nanda Devi','Director Corbett',
+  'Others'
 ];
 
 // Populate officer filter in toolbar from actual task data

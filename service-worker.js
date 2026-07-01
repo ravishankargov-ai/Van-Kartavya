@@ -1,8 +1,8 @@
 // ============================================================
-//  Van Kartavya — Service Worker  (v2)
+//  Van Kartavya — Service Worker  (v3)
 //  Network-first for the app HTML so updates always appear.
 // ============================================================
-const CACHE_NAME = 'van-kartavya-v2';
+const CACHE_NAME = 'van-kartavya-v3';
 const ASSETS = ['./','./index.html','./manifest.json','./icon-192.png','./icon-512.png'];
 
 self.addEventListener('install', event => {
